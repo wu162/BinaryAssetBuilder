@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>BinaryAssetBuilder.Core</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="BinaryAssetBuilderProject.xsd" />
+    <EmbeddedResource Include="BinaryAssetBuilderProject.xsd" LogicalName="BinaryAssetBuilderProject.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml" />
+    <Reference Include="BinaryAssetBuilder.Utility">
+      <HintPath>..\..\RA3_MODSDK-X_1.3\tools\BinaryAssetBuilder.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="EALA.Hash">
+      <HintPath>..\..\RA3_MODSDK-X_1.3\tools\EALA.Hash.dll</HintPath>
+    </Reference>
+    <Reference Include="EALA.Metrics">
+      <HintPath>..\..\RA3_MODSDK-X_1.3\tools\EALA.Metrics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+</Project>

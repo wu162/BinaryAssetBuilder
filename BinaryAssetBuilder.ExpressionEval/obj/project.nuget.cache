@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+3ygPMGr1VDysmBy/A4T3lkBggA9Rhd2Q8YGiCYTjDPCNVq0hyYJFSI3Ca6uJWMomyET9tjo8yg6LWUF9qlvUw==",
+  "success": true,
+  "projectFilePath": "D:\\file\\yule\\BinaryAssetBuilder\\BinaryAssetBuilder.ExpressionEval\\BinaryAssetBuilder.ExpressionEval.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\29972\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\29972\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

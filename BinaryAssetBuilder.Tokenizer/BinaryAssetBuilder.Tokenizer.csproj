@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>BinaryAssetBuilder.Tokenizer</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="BinaryAssetBuilder.Core">
+      <HintPath>..\..\RA3_MODSDK-X_1.3\tools\BinaryAssetBuilder.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EALA.Hash">
+      <HintPath>..\..\RA3_MODSDK-X_1.3\tools\EALA.Hash.dll</HintPath>
+    </Reference>
+    <Reference Include="EALA.ProcessUtility" />
+    <Reference Include="EALA.Metrics">
+      <HintPath>..\..\RA3_MODSDK-X_1.3\tools\EALA.Metrics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualC" />
+  </ItemGroup>
+</Project>

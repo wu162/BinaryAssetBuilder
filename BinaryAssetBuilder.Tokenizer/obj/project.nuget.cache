@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AMNwHxkv/l++VRXGSEDt10mkYQLSm3qJMu6srKzCUGe/M8z4s2cQKcZrxL3lfY3yuQjnFTHsD63Q3WCOAcRtxw==",
+  "success": true,
+  "projectFilePath": "D:\\file\\yule\\BinaryAssetBuilder\\BinaryAssetBuilder.Tokenizer\\BinaryAssetBuilder.Tokenizer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\29972\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\29972\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
